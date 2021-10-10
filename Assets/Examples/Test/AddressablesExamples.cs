@@ -220,14 +220,14 @@ public class AddressablesExamples : MonoBehaviour
 
         //cube.AddComponent<AudioSource>().clip = clip;
 
-        var list = new List<string>()
-        {
-            "Assets/RawResources/Textures/CommonUI.png[1]",
-            "Assets/RawResources/Textures/CommonUI.png[2]"
-        };
+        //var list = new List<string>()
+        //{
+        //    "Assets/RawResources/Textures/CommonUI.png[1]",
+        //    "Assets/RawResources/Textures/CommonUI.png[2]"
+        //};
 
-        var sprite = await _assetMgr.LoadAssetsAsync<Sprite>(list);
-        UnityEngine.Debug.LogError(sprite.Count);
+        //var sprite = await _assetMgr.LoadAssetsAsync<Sprite>(list);
+        //UnityEngine.Debug.LogError(sprite.Count);
     }
 
 

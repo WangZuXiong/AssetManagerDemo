@@ -18,15 +18,6 @@ public class BaseUI : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Panel 才会执行
-    /// </summary>
-    /// <returns></returns>
-    public virtual async Task<bool> LoadRes()
-    {
-        return true;
-    }
-
     protected async Task<T> LoadAssetAsync<T>(string path) where T : UnityEngine.Object
     {
         Debug.Log("path:" + path);
